@@ -1,3 +1,4 @@
+package TASKS;
 public class CheckPassFail {
     public static void main(String arg[]){
         int mark = 20;

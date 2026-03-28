@@ -1,3 +1,4 @@
+package TASKS;
 public class While{
     public static void main(String args[]) {
         // int x = 1;

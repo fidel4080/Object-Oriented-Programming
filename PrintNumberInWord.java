@@ -1,3 +1,4 @@
+package TASKS;
 public class PrintNumberInWord {
     public static void main(String[] arg){
         int number = 5;
