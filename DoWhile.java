@@ -1,4 +1,3 @@
-package TASKS;
 public class DoWhile {
     public static void main(String arg[]){
         // int x = 1;

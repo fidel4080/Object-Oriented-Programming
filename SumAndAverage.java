@@ -1,4 +1,4 @@
-package TASKS;
+
 public class SumAndAverage {
     public static void main(String[] arg){
         int num;
