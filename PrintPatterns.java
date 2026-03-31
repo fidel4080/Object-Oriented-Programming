@@ -38,7 +38,18 @@ public class PrintPatterns {
     }
 
     static void pattern4(){
+        for(int rows = 1; rows <= 8; rows++){
 
+            for(int spaces = 7; spaces >= (rows - 1); spaces--){
+                System.out.print("  ");
+            }
+
+            for(int cols = 1; cols <= rows; cols++){
+                System.out.print("# ");
+            }
+
+            System.out.println();
+        }
     }
 
     public static void main(String[] args){
