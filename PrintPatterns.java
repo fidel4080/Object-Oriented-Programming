@@ -1,6 +1,5 @@
-public class PrintPatterns1 {
-    public static void main(String[] arg){
-
+public class PrintPatterns {
+    static void pattern1(){
         for(int rows = 1; rows <= 8; rows++){
 
             for(int cols = 1; cols <= rows; cols++){
@@ -11,4 +10,9 @@ public class PrintPatterns1 {
             System.out.println();
         }
     }
+
+    public static void main(String[] args){
+        pattern1();
+    }
 }
+
