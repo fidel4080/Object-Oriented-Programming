@@ -52,11 +52,29 @@ public class PrintPatterns {
         }
     }
 
+    static void pattern5(){
+        for(int rows = 1; rows <= 7; rows++){
+            for(int cols = 1; cols <= 7; cols++){
+
+                if(rows == 1 || rows == 7 || cols == 1 || cols ==7){
+                    System.out.print("# ");
+                }
+
+                else{
+                    System.out.print("  ");
+                }
+            }
+
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args){
         // pattern1();
         // pattern2();
         // pattern3();
-        pattern4();
+        // pattern4();
+        pattern5();
 
     }
 }
